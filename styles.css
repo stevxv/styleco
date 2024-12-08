@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .hero-container {
@@ -20,6 +21,10 @@ nav .logo {
   font-style: normal;
   font-weight: 700;
   font-family: "Playfair Display", serif;
+}
+
+.logo span {
+  font-weight: 400;
 }
 
 nav {
@@ -145,6 +150,7 @@ nav button {
   font-weight: 400;
   color: black;
   text-align: center;
+  padding-bottom: 0.81rem;
 }
 
 .colecciones-card p {
@@ -152,7 +158,6 @@ nav button {
   font-size: 1rem;
   font-weight: 300;
   color: black;
-  padding-top: 0.81rem;
   height: 3.75rem;
 }
 
@@ -263,6 +268,7 @@ nav button {
   position: relative;
   color: white;
   padding-left: 2.19rem;
+  padding-right: 2.19rem;
   padding-bottom: 2.19rem;
   padding-top: 37.25rem;
 }
@@ -281,6 +287,8 @@ nav button {
   font-weight: 300;
   color: white;
 }
+
+/* Suscripción */
 
 .suscripcion-container {
   width: 100vw;
@@ -345,4 +353,147 @@ nav button {
   font-weight: 300;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+/* Footer */
+
+footer {
+  width: 100dvw;
+  background-color: black;
+  color: white;
+  padding-top: 6.19rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 9rem;
+  padding-left: 8.81rem;
+  padding-right: 8.81rem;
+}
+
+.footer-brand h2 {
+  font-family: "Playfair Display", serif;
+  font-size: 2.9375rem;
+  font-weight: 700;
+  padding-bottom: 3.13rem;
+}
+
+.footer-brand p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 150%;
+  padding-bottom: 2.75rem;
+}
+
+.footer-social {
+  display: flex;
+  flex-direction: row;
+  gap: 1.31rem;
+}
+
+.footer-links-compra {
+  display: flex;
+  flex-direction: column;
+  /* padding-left: 9.38rem; */
+  padding-top: 2.06rem;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-links-compra h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 3.31rem;
+}
+
+.footer-links-compra li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-bottom: 1.06rem;
+}
+
+.footer-links-compra a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-links-explora {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.06rem;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-links-explora h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 3.31rem;
+}
+
+.footer-links-explora li {
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-bottom: 1.06rem;
+}
+
+.footer-links-explora a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2.06rem;
+  font-family: "Lato", sans-serif;
+}
+
+.footer-contact h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding-bottom: 3.31rem;
+}
+
+.footer-contact p {
+  font-size: 1.5rem;
+  font-weight: 200;
+  padding-bottom: 1.06rem;
+}
+
+.footer-contact a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 13rem;
+  border-top: solid 0.5px white;
+  padding-left: 8.81rem;
+  padding-right: 8.81rem;
+  padding-top: 2.94rem;
+  padding-bottom: 2.94rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.25rem;
+  color: white;
+  font-weight: 400;
+}
+
+.footer-legal {
+  display: flex;
+  gap: 3.31rem;
+}
+
+.footer-legal a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
 }

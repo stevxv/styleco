@@ -9,18 +9,18 @@
   <body>
     <header>
       <nav>
-        <div class="logo">StyleCo</div>
+        <div class="logo">Styles<span>Co</span></div>
         <ul>
-          <li><a href="#">INICIO</a></li>
-          <li><a href="#">COLECCIONES</a></li>
-          <li><a href="#">ACERCA DE</a></li>
-          <li><a href="#">CONTACTO</a></li>
+          <li><a href="#inicio">INICIO</a></li>
+          <li><a href="#colecciones">COLECCIONES</a></li>
+          <li><a href="#valores">ACERCA DE</a></li>
+          <li><a href="#contacto">CONTACTO</a></li>
           <button>EXPLORA AHORA</button>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="incio">
         <div class="hero-container">
           <div class="hero-text">
             <h1>Descubre tu estilo</h1>
@@ -30,7 +30,7 @@
         </div>
       </section>
       <!-- Grid de colecciones -->
-      <section>
+      <section id="colecciones">
         <div class="colecciones-container">
           <div class="colecciones-text">
             Tendencias que marcan
@@ -130,7 +130,7 @@
           </div>
         </div>
       </section> -->
-      <section>
+      <section id="valores">
         <div class="valores-container">
           <div class="valores-text">
             Lo que nos
@@ -199,9 +199,142 @@
         </div>
       </section>
     </main>
-    <footer>
+    <!-- Footer -->
+    <footer id="contacto">
       <div class="footer-container">
-        <div class="footer-brand"></div>
+        <div class="footer-brand">
+          <h2>StyleCo</h2>
+          <p>
+            Nuestra misión es ofrecer prendas exclusivas que te ayuden a
+            destacar y sentirte único en cada ocasión.
+          </p>
+          <div class="footer-social">
+            <a href="#" title="Instagram">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+              >
+                <path
+                  d="M20 27.5385C24.1633 27.5385 27.5384 24.1634 27.5384 20.0001C27.5384 15.8367 24.1633 12.4617 20 12.4617C15.8365 12.4617 12.4615 15.8367 12.4615 20.0001C12.4615 24.1634 15.8365 27.5385 20 27.5385Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M3.03845 27.5383V12.4615C3.03845 7.25724 7.25736 3.03833 12.4616 3.03833H27.5385C32.7427 3.03833 36.9616 7.25724 36.9616 12.4615V27.5383C36.9616 32.7425 32.7427 36.9615 27.5385 36.9615H12.4616C7.25736 36.9615 3.03845 32.7425 3.03845 27.5383Z"
+                  stroke="white"
+                  stroke-width="2"
+                />
+                <path
+                  d="M30.3653 9.65298L30.3837 9.63257"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a href="#" title="Facebook">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M29.4011 2.90698H24.2733C22.0065 2.90698 19.8326 3.80729 18.23 5.41011C16.6272 7.01292 15.7267 9.18683 15.7267 11.4534V16.5814H10.5989V23.4185H15.7267V37.0929H22.5639V23.4185H27.6918L29.4011 16.5814H22.5639V11.4534C22.5639 11.0001 22.744 10.5653 23.0645 10.2448C23.3851 9.92417 23.82 9.74417 24.2733 9.74417H29.4011V2.90698Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a href="#" title="Pinterest">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.1628 24.2733C8.03486 16.5814 15.6625 10.5989 20.8547 10.5989C26.0469 10.5989 30.2558 13.4254 30.2558 20C30.2558 25.1922 26.8372 28.5465 23.4186 28.5465C20 28.5465 18.2906 25.1279 19.1453 20"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 16.5813L14.872 36.2383"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M20 37.0929C29.4402 37.0929 37.093 29.4401 37.093 20C37.093 10.5598 29.4402 2.90698 20 2.90698C10.5599 2.90698 2.90704 10.5598 2.90704 20C2.90704 29.4401 10.5599 37.0929 20 37.0929Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+            <a href="#" title="Twitter">
+              <svg
+                width="40"
+                height="40"
+                viewBox="0 0 40 40"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M37.1875 5.95322C37.1875 5.95322 34.0345 7.81589 32.2813 8.34384C31.3402 7.26183 30.0895 6.49492 28.6984 6.14684C27.3073 5.79878 25.843 5.88633 24.5033 6.39767C23.1636 6.90901 22.0131 7.81947 21.2078 9.00589C20.4023 10.1923 19.9808 11.5975 20 13.0313V14.5938C17.2541 14.665 14.5332 14.056 12.0797 12.8211C9.62616 11.5861 7.51612 9.76358 5.9375 7.51572C5.9375 7.51572 -0.3125 21.5783 13.75 27.8283C10.5321 30.0125 6.69869 31.1078 2.8125 30.9533C16.875 38.7658 34.0625 30.9533 34.0625 12.9845C34.0611 12.5492 34.0192 12.1151 33.9375 11.6876C35.5322 10.1149 37.1875 5.95322 37.1875 5.95322Z"
+                  stroke="white"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-compra">
+          <h3>Compra</h3>
+          <ul>
+            <li><a href="#">Mujeres</a></li>
+            <li><a href="#">Hombres</a></li>
+            <li><a href="#">Niños</a></li>
+            <li><a href="#">Accesorios</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-explora">
+          <h3>Explora</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Colecciones</a></li>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h3>Contacto</h3>
+          <p><a href="mailto:contacto@styleco.com">contacto@styleco.com</a></p>
+          <p>1213 Fashion Avenue, New York, NY</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Todos los derechos reservados. © 2024 StyleCo.</p>
+        <div class="footer-legal">
+          <a href="#">Términos y condiciones</a>
+          <a href="#">Política de privacidad</a>
+        </div>
       </div>
     </footer>
   </body>
