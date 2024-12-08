@@ -95,7 +95,6 @@ nav button {
 
 .colecciones-container {
   width: 100vw;
-  height: 100vh;
 }
 
 .colecciones-text {
@@ -169,4 +168,73 @@ nav button {
   width: 100%;
   height: 3.0625rem;
   margin-top: 1.94rem;
+}
+
+/* Valores */
+
+.valores-container {
+  width: 100vw;
+}
+
+.valores-text {
+  padding-top: 3.94rem;
+  padding-bottom: 2.56rem;
+  font-family: "Playfair Display", serif;
+  font-size: 2.3125rem;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  width: 38.8125rem;
+  margin: auto;
+}
+
+.valores-text span {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.valores-text p {
+  padding-top: 2.56rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 300;
+}
+
+.valores-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.valores-card {
+  height: 100%;
+  position: relative;
+}
+
+.valores-card img {
+  width: 100%;
+}
+
+.valores-card-content {
+  position: relative;
+  color: white;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  padding-left: 2.19rem;
+  padding-bottom: 2.19rem;
+}
+
+.valores-card h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.6875rem;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
+.valores-card p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  color: white;
 }
