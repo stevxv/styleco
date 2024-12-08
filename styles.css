@@ -205,9 +205,8 @@ nav button {
   grid-template-columns: repeat(2, 1fr);
 }
 
-.valores-card {
+/* .valores-card {
   height: 100%;
-  position: relative;
 }
 
 .valores-card img {
@@ -237,4 +236,113 @@ nav button {
   font-size: 1.5625rem;
   font-weight: 300;
   color: white;
+} */
+
+.valores-card:nth-child(1) {
+  background-image: url("media/value-1.webp");
+  width: 100%;
+  height: 48.125rem;
+}
+
+.valores-card:nth-child(2) {
+  background-image: url("media/value-2.webp");
+  height: 48.125rem;
+}
+
+.valores-card:nth-child(3) {
+  background-image: url("media/value-3.webp");
+  height: 48.125rem;
+}
+
+.valores-card:nth-child(4) {
+  background-image: url("media/value-4.webp");
+  height: 48.125rem;
+}
+
+.valores-card-content {
+  position: relative;
+  color: white;
+  padding-left: 2.19rem;
+  padding-bottom: 2.19rem;
+  padding-top: 37.25rem;
+}
+
+.valores-card h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.6875rem;
+  font-weight: 700;
+  color: white;
+  font-style: italic;
+}
+
+.valores-card p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  color: white;
+}
+
+.suscripcion-container {
+  width: 100vw;
+  padding-top: 8.81rem;
+  padding-bottom: 8.81rem;
+}
+
+.suscripcion-text {
+  padding-left: 8.81rem;
+}
+
+.suscripcion-text h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 3.4375rem;
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+}
+
+.suscripcion-text p {
+  padding-top: 1.63rem;
+  font-family: "Lato", sans-serif;
+  font-size: 1.5625rem;
+  font-weight: 300;
+  color: black;
+}
+
+.suscripcion-form {
+  padding-top: 3.12rem;
+  display: flex;
+  justify-content: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding-left: 8.81rem;
+  padding-right: 8.81rem;
+}
+
+.suscripcion-form input {
+  border: solid 0.5px black;
+  width: 100%;
+  outline: none;
+  padding: 1.75rem;
+  font-size: 1.5625rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+}
+
+.suscripcion-form button {
+  background-color: black;
+  color: white;
+  border: solid 3.5px black;
+  width: 14.125rem;
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
